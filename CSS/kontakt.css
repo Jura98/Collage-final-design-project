@@ -1,0 +1,109 @@
+
+
+#contact-info-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+#contact-info-wrapper>div{
+    height: 80%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contact-info{
+    display: flex;
+    justify-content: flex-start;
+    padding: 2vw;
+}
+#contact-owner{
+    font-family: var(--text-font);
+    font-size: 1.3vw;
+}
+.conatct-info-container{
+    margin: 2vh 0;
+    font-size: 1vw;
+    font-family: var(--second-font);
+    font-weight: 500;
+}
+
+#contact-info,#user-message{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.input-container{
+    font-family: var(--second-font);
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: .7vw;
+}
+.input-container>input{
+    margin-top: .4vh;
+    height: 2.5vh;
+    width: 100%;
+}
+.input-container>input, .input-container>textarea{
+    border-radius: .5vw;
+    border: none;
+    outline: none;
+    padding: .5vw;
+    resize: none;
+    width: 100%;
+}
+#send_message{
+    margin-top: .5vh;
+    font-weight: 600;
+    font-size: var(--title-font-size);
+    font-family: var(--second-font);
+    color: var(--pearl-white);
+    background-color: var(--damp-green);
+    border: none;
+    border-radius: .5vw;
+    height: 4vh;
+    width: 50%;
+}
+#send_message:hover{
+    color: var(--damp-green);
+    background-color: var(--pearl-white);
+}
+
+.contact-container{
+    width: 80%;
+    background-color: var(--navy-blue);
+    color: var(--pearl-white);
+    padding: 3vw;
+
+    border-radius: .5vw;
+}
+
+.contact-title{
+    font-size: 1.65vw;
+    font-family: var(--title-font);
+}
+
+
+@media(max-width:768px){
+    #contact-info-wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-container{
+        width: 70vw;
+        font-size: 1.5vw;
+    }
+
+    .conatct-info-container{
+        font-size: 1.5vw;
+    }
+    .contact-title,#contact-owner{
+        font-size: 3vw;
+    }
+}

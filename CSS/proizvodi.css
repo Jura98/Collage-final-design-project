@@ -1,0 +1,251 @@
+
+.page-content{
+    height: 100vh;
+}
+.archive{
+    font-family: var(--second-font);
+    color: var(--navy-blue);
+    width: 50%;
+    border-bottom: .2vw solid var(--navy-blue);
+    font-size: 2vw;
+}
+.archive-category{
+    color: var(--navy-blue);
+}
+.product{
+    color: var(--damp-green);
+}
+.product-main-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.item-image-wrapper,.item-description-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 40%;
+    height: 70%;
+    overflow: hidden;
+    
+}.item-description-wrapper{
+    color:var(--damp-green);
+
+    background-color: var(--pearl-white);
+    border-radius: 1vw;
+    padding: .2vw;
+    height: 40%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    box-shadow:
+    0px 0.3px 0.6px rgba(0, 0, 0, 0.028),
+    0px 0.7px 1.4px rgba(0, 0, 0, 0.04),
+    0px 1.4px 2.6px rgba(0, 0, 0, 0.05),
+    0px 2.5px 4.7px rgba(0, 0, 0, 0.06),
+    0px 4.6px 8.8px rgba(0, 0, 0, 0.072),
+    0px 11px 21px rgba(0, 0, 0, 0.1)
+  ;
+
+}.item-description-wrapper>div{
+    height: 25%;
+    width: 100%;
+    padding: 1vw;
+}
+
+.dodaj-kontainer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.količina-kontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cijena-kontainer{
+    display: flex;
+    align-items: center;
+}
+.image-wrap{
+
+    height: 65%;
+    width: 75%;
+}
+.item-desc{
+    background-color: var(--damp-green);
+    border-radius: 2vw 2vw 2vw 0vw;
+    color: var(--pearl-white);
+    padding: 1vw;
+    font-size: 1.1vw;
+
+
+    box-shadow:
+    0px 1.9px 5.7px rgba(0, 0, 0, 0.048),
+    0px 4.3px 10.1px rgba(0, 0, 0, 0.069),
+    0px 7.2px 12.8px rgba(0, 0, 0, 0.085),
+    0px 10.8px 13.9px rgba(0, 0, 0, 0.101),
+    0px 15.2px 13.8px rgba(0, 0, 0, 0.122),
+    0px 19px 19px rgba(0, 0, 0, 0.17)
+  ;
+}
+.item-image-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.image-wrap>img{
+    border-radius: 1vw;
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+    box-shadow:
+    0px 0.3px 0.6px rgba(0, 0, 0, 0.028),
+    0px 0.7px 1.4px rgba(0, 0, 0, 0.04),
+    0px 1.4px 2.6px rgba(0, 0, 0, 0.05),
+    0px 2.5px 4.7px rgba(0, 0, 0, 0.06),
+    0px 4.6px 8.8px rgba(0, 0, 0, 0.072),
+    0px 11px 21px rgba(0, 0, 0, 0.1)
+  ;
+}
+
+
+.round-counter{
+    margin-left: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .8vw;
+    font-size: 1.2vw;
+    width: 1.2vw;
+    height: 1.2vw;
+    border-radius: 50%;
+    background-color: #fff;
+    font-family: var(--text-font);
+
+    color: var(--damp-green);
+
+    box-shadow:
+    0px 0.1px 0.2px rgba(0, 0, 0, 0.025) inset,
+    0px 0.3px 0.4px rgba(0, 0, 0, 0.036) inset,
+    0px 0.6px 0.8px rgba(0, 0, 0, 0.045) inset,
+    0px 1.1px 1.3px rgba(0, 0, 0, 0.054) inset,
+    0px 2.1px 2.5px rgba(0, 0, 0, 0.065) inset,
+    0px 5px 6px rgba(0, 0, 0, 0.09) inset
+  ;
+}
+.round-counter:nth-child(odd){
+    background-color: var(--damp-green);
+    font-size: 2vw;
+    font-weight: bold;
+    color:var(--pearl-white);
+
+    box-shadow:
+    0px 0.1px 0.2px rgba(0, 0, 0, 0.025),
+    0px 0.3px 0.4px rgba(0, 0, 0, 0.036),
+    0px 0.6px 0.8px rgba(0, 0, 0, 0.045),
+    0px 1.1px 1.3px rgba(0, 0, 0, 0.054),
+    0px 2.1px 2.5px rgba(0, 0, 0, 0.065),
+    0px 5px 6px rgba(0, 0, 0, 0.09)
+  ;
+}
+
+.round-counter:nth-child(odd):hover{
+    color:var(--damp-green);
+    background-color: var(--pearl-white);
+    box-shadow: none;
+    cursor: pointer;
+
+}
+
+.cijena-kontainer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-name-wrap,.cijena-kontainer{
+    border-bottom: .1vw solid var(--damp-green);
+
+}
+.item-name{
+    color:var(--damp-green);
+    font-size: 2vw;
+    font-family: var(--text-font);
+}
+
+.price{
+    font-family: var(--text-font);
+    font-size: 2vw;
+}
+
+.add-to-cart,#recenzije-link{
+    border: none;
+    border-radius: 1vw;
+    color: var(--pearl-white);
+    background-color:var(--damp-green);
+    padding: .2vw .5vw;
+    font-size: 1vw;
+    font-family: var(--second-font);
+    font-weight: 500;
+}
+
+.add-to-cart:hover,#recenzije-link:hover{
+    cursor: pointer;
+    color: var(--damp-green);
+    background-color:var(--pearl-white);
+}
+
+#recenzije-link{
+    padding: 1vw 2vw;
+}
+
+
+
+@media(max-width:768px){
+    .product-main-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+    #single-product-marginer{
+        height: 90%;
+    }
+    .page-content{
+        height: 100vh;
+    }
+    .item-image-wrapper,.item-image-wrapper>cite,.item-description-wrapper{
+        width: 90%;
+    }
+    .dodaj-kontainer,.item-name-wrap{
+        display: flex;
+        align-items: center;
+    }
+    .item-name-wrap{
+        justify-content: center;
+    }
+    .add-to-cart,#recenzije-link{
+        height: 50%;
+        padding: 3%;
+        display: flex;
+        align-items: center;
+        font-size: 2vw;
+    }
+   
+    .item-name,.price,.recenzije-link{
+        font-size: 4.5vw;
+    }
+    .item-desc{
+        font-size: 2.5vw;
+    }
+    .round-counter{
+        padding: 3vw;
+        font-size: 3vw;
+    }
+}

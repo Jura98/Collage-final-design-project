@@ -1,0 +1,20 @@
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 3vw;
+    right: 3vw;
+    z-index: 99;
+    font-size: 1vw;
+    border: none;
+    outline: none;
+    background-color: var(--navy-blue);
+    color: var(--pearl-white);
+    cursor: pointer;
+    padding: 1vw;
+    border-radius: 1vw;
+  }
+  
+  #myBtn:hover {
+    background-color: var(--pearl-white);
+    color: var(--navy-blue);
+  }

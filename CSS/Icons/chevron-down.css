@@ -1,0 +1,24 @@
+.gg-chevron-down {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 1vw;
+    height: 1vh;
+    border: 2px solid transparent;
+    
+}
+
+.gg-chevron-down::after {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 1vw;
+    height: 1vh;
+    border-bottom: 2px solid;
+    border-right: 2px solid;
+    transform: rotate(45deg);
+    left: .1vw;
+    top: .2vw
+}
