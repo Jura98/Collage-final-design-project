@@ -22,18 +22,18 @@
 }
 #title-hero-section-div>a,.next-section-scroller>a{
     z-index: 100;
-    scale: 3;
+    scale: 2.5;
 }
 #title-hero-section-div>a:hover,.next-section-scroller>a:hover{
     transition: .3s ease;
-    scale: 3.5;
+    scale: 3;
     background-color: var(--navy-blue);
     border-radius: 1vw;
 }
 .next-section-scroller{
     z-index: 100;
     width: 100%;
-    margin-top: 4%;
+    margin-top: 1.5%;
     display: flex;
     align-items: center;
     justify-content: center;
