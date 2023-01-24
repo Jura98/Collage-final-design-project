@@ -38,9 +38,26 @@ html{
 body{
     background-color: var(--pearl-white);
     background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
-    max-width: 100% ;
+    max-width: 100%;
     margin: 0;
     font-size: var(--main-font-size);
+    min-height: 100vh;
+
+}
+
+.page-content{
+    height: 100%;
+}
+footer{
+    font-family: var(--second-font);
+    font-weight: 500;
+    position: sticky;
+    margin-top: 5vh;
+    top: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: var(--damp-green);
+    color: var(--pearl-white);
 }
 
 a{
