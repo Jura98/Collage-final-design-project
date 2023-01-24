@@ -223,7 +223,7 @@
 }
 @media(max-width:768px){
     .categories>h1>a{
-        font-size: 5vw;
+        font-size: 5vh;
     }
     .next-section-scroller,
     #scroller-wrapper,
@@ -232,7 +232,7 @@
         display: none;
     }
     #hero-title{
-        font-size: 10vw;
+        font-size: 7vh;
     }
     .categories-wrapper{
         flex-direction: column;
@@ -246,7 +246,7 @@
         border-radius: 5vw;
     }
     .background-text-div>h2{
-        font-size: 8vw;
+        font-size: 7vh;
     }
     .background-text-div{
         opacity: 100;
@@ -261,7 +261,7 @@
         display: none;
     }
     #about-title{
-        font-size: 8vw;
+        font-size: 8vh;
     }
     #about-wrapper{
         height: 100vh;
@@ -277,10 +277,12 @@
         align-items: center;
     }
     #hero-quote{
-        font-size: 5vw;
+        width: 100vw;
+        font-size: 4vh;
+        text-align: center;
     }
     #author,#about-text{
-        font-size: 3vw;
+        font-size: 2vh;
     }
     }
    
