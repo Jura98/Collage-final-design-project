@@ -32,7 +32,9 @@ html {
     margin-left: 10%;
     margin-right: 10%;
 }
-
+html{
+    height: 100%;
+}
 body{
     background-color: var(--pearl-white);
     background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
@@ -57,3 +59,4 @@ img{
 a:visited { 
     text-decoration: none; 
 }
+
