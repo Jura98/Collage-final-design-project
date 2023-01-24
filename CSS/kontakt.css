@@ -107,3 +107,33 @@
         font-size: 3vw;
     }
 }
+
+@media(max-width:767px){
+    #contact-info-wrapper{
+        width: 100vw;
+        min-height: 100vh;
+        background-color: var(--navy-blue);
+    }
+
+    .contact-container{
+        width: 90vw;
+    }
+    .contact-title{
+        font-size: 5vw;
+    }
+
+    .input-container>input, .input-container>textarea{
+        margin-top: .8vh;
+
+    }
+
+    .conatct-info-container{
+        font-size: 3vw;
+        
+    }
+
+    .input-container>label,#send_message{
+        font-size: 3vw;
+    }
+
+}

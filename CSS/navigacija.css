@@ -30,8 +30,8 @@
     gap: 10%;
     display: flex;
     width: 100%;
+    height: 50%;
     justify-content: space-around;
-
 }
 .nav-item>a{
     color: var(--damp-green);
@@ -105,8 +105,8 @@
 
     .nav-item{
         margin: 2vw 0;
-        padding: 1vw 0;
-        font-size: 2vw;
+        padding: 1vw 5vw;
+        font-size: 5vw;
     }
     .nav-item:hover{
         width: 25%;

@@ -206,6 +206,9 @@
 
 
 @media(max-width:768px){
+    .archive{
+        font-size: 5vw;
+    }
     .product-main-content{
         display: flex;
         flex-direction: column;
@@ -246,6 +249,12 @@
     }
     .round-counter{
         padding: 3vw;
+        font-size: 3vw;
+    }
+}
+
+@media(max-width:767px){
+    .add-to-cart,#recenzije-link{
         font-size: 3vw;
     }
 }
